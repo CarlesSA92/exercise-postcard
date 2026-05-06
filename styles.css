@@ -36,6 +36,12 @@ input, textarea{
     width: 90%;
     padding: 5px;
     margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    background: transparent;
+    box-shadow: none;
+    font-family:'Courier New', Courier, monospace;
 }
 
 #footer{
@@ -44,5 +50,16 @@ input, textarea{
     align-items: center;
     padding: 10px;
 }
-
-/*button{}
+button{
+    padding: 5px 10px;
+    background-color: darkgray;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+button:hover{
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
